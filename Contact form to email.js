@@ -3,8 +3,8 @@ function emailSend(){
 	var thongbao = document.getElementById('thongbao').value;
 	var chitiet = document.getElementById('chitiet').value;
 
-	var messageBody = "thongbao " + thongbao +
-	"<br/> chitiet " + chitiet 
+	var messageBody = "THÔNG BÁO" + thongbao +
+	"<br/> CHI TIẾT " + chitiet 
 	Email.send({
     Host : "smtp.elasticemail.com",
     Username : "Duy007459@gmail.com",
