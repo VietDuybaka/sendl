@@ -9,7 +9,7 @@ function emailSend(){
     Host : "smtp.elasticemail.com",
     Username : "Duy007459@gmail.com",
     Password : "B6CA8E3FD583FD2085FE11A9ACD13A7960A8",
-    To : 'sk14444sk@gmail.com','nguyenquang.soul@gmail.com'
+    To : 'sk14444sk@gmail.com','nguyenquang.soul@gmail.com',
     From : "Duy007459@gmail.com",
     Subject : "Đây là thông báo!",
     Body : messageBody
