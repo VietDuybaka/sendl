@@ -1,27 +1,25 @@
 function emailSend(){
 
-	var userName = document.getElementById('name').value;
-	var phone = document.getElementById('phone').value;
-	var email = document.getElementById('email').value;
+	var thongbao = document.getElementById('thongbao').value;
+	var chitiet = document.getElementById('chitiet').value;
 
-	var messageBody = "Name " + userName +
-	"<br/> Phone " + phone +
-	"<br/> Email " + email;
+	var messageBody = "thongbao " + thongbao +
+	"<br/> chitiet " + chitiet 
 	Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "host@gmail.com",
-    Password : "Password",
-    To : 'reviever@gmail.com',
-    From : "website@gmail.com",
-    Subject : "This is the subject",
+    Username : "Duy007459@gmail.com",
+    Password : "B6CA8E3FD583FD2085FE11A9ACD13A7960A8",
+    To : 'sk14444sk@gmail.com',
+    From : "Duy007459@gmail.com",
+    Subject : "Đây là thông báo!",
     Body : messageBody
 }).then(
   message => {
   	if(message=='OK'){
-  		swal("Secussful", "You clicked the button!", "success");
+  		swal("Gui thong bao thanh cong!");
   	}
   	else{
-  		swal("Error", "You clicked the button!", "error");
+  		swal("Hay thu lai!");
   	}
   }
 );
