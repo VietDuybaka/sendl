@@ -30,13 +30,13 @@ body{
 .btn{
 	border: none !important;
 	cursor: pointer;
-	background-color: #32cd9c;
+	background-color: rgb(223, 81, 15), 55, 50);
 	margin: 15px 0;
 	font-size: 16px;
 	width: 100%;
 	padding: 14px;
 }
 .btn:hover{
-	background-color: #1f7d5f;
+	background-color: rgb(212, 60, 14) 212, 150);
 	color: white;
 }
