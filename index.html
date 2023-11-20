@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Contact form to email.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Thông báo</h2>
+		<form onsubmit="emailSend(); reset(); return false;">
+			<input type="text" id="thongbao" placeholder="thongbao" name="Thông báo" required>
+			<input type="text" id="chitiet" placeholder="chitiet" name="Chi tiết" required>
+			<button type="submit" class="btn">submit</button>
+		</form>
+	</div> 
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+	<script src="Contact form to email.js"></script>
+</body>
+</html>
